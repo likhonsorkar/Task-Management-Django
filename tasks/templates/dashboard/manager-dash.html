@@ -1,0 +1,87 @@
+{% extends "dashboard/dashboard.html" %}
+{% block tasks %}
+      <!-- task table -->
+      <div class="bg-white rounded-xl shadow-sm mt-8 p-4 border-b border-gray-100 text-sm text-grey-500">
+        <div class="grid grid-cols-4">
+          <div>TASK TITLE</div>
+          <div>PRIORITY</div>
+          <div>TEAM</div>
+          <div>CREATED AT</div>
+        </div>
+        <!-- table data 1 -->
+        <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="grid grid-cols-4">
+          <div class="flex items-center">
+            <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div> <span>Test Low Task</span>
+          </div>
+          <div> <span class="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">LOW</span></div>
+          <div>
+            <div class="flex -space-x-2">
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+            </div>
+          </div>
+          <div><span class="text-gray-500">9 MOUNTH AGO</span></div>
+        </div>
+        <!-- table data 2 -->
+        <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="grid grid-cols-4">
+          <div class="flex items-center">
+            <div class="w-2 h-2 bg-yellow-500 rounded-full mr-1"></div> <span>Test Low Task</span>
+          </div>
+          <div><span class="px-3 py-1 bg-yellow-50 text-yellow-600 rounded-full">MEDIUM</span></div>
+          <div>
+            <div class="flex -space-x-2">
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+            </div>
+          </div>
+          <div><span class="text-gray-500">9 MOUNTH AGO</span></div>
+        </div>
+        <!-- table data 3 -->
+        <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="grid grid-cols-4">
+          <div class="flex items-center">
+            <div class="w-2 h-2 bg-orange-500 rounded-full mr-1"></div> <span>Test High Task</span>
+          </div>
+          <div><span class="px-3 py-1 bg-red-50 text-red-600 rounded-full">HIGH</span></div>
+          <div>
+            <div class="flex -space-x-2">
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+              <span
+                class="w-8 h-8 bg-blue-500 rounded-full border-2 border-white text-white text-sm flex items-center justify-center">
+                CA
+              </span>
+            </div>
+          </div>
+          <div><span class="text-gray-500">9 MOUNTH AGO</span></div>
+        </div>
+      </div>
+{% endblock tasks %}
